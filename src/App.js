@@ -6,10 +6,10 @@ import examplelogo from "../src/images/logo.svg";
 
 function App() {
   const [isLiked, setIsLiked] = useState();
-
   const handleLikeClick = () => {
     setIsLiked((prev) => !prev);
   };
+
 
   return (
     <div className="container">
@@ -50,7 +50,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -60,8 +60,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -81,7 +82,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -91,8 +92,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -112,7 +114,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -122,8 +124,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -142,7 +145,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -152,8 +155,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -172,7 +176,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -182,8 +186,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -202,7 +207,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -212,8 +217,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -232,7 +238,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -242,8 +248,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -262,7 +269,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -272,8 +279,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -284,7 +292,7 @@ function App() {
           <img src={"https://images.punkapi.com/v2/8.png"} />
           <h2>Fake Lager</h2>
           <p>
-            "Once the primary fermentation is complete get this beer as cold as
+            Once the primary fermentation is complete get this beer as cold as
             you can and let it mature for as long as you've got.
           </p>
         </div>
@@ -292,7 +300,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -302,8 +310,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();
@@ -323,7 +332,7 @@ function App() {
           <div>
             {isLiked ? (
               <AiFillHeart
-                data-testid="like-icon"
+                data-testid="like-icon-filled"
                 className="love-icon"
                 color="red"
                 size={50}
@@ -333,8 +342,9 @@ function App() {
               />
             ) : (
               <AiOutlineHeart
-                data-testid="like-icon"
+                data-testid="like-icon-outlined"
                 className="love-icon"
+                color="white"
                 size={50}
                 onClick={() => {
                   handleLikeClick();

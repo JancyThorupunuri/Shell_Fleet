@@ -131,3 +131,11 @@ test('renders image text', () => {
     const heading = getByText(/Copyright Foolproof 2019/i);
     expect(heading).toBeInTheDocument();
   });
+
+
+
+
+
+
+
+
